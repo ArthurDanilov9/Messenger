@@ -16,7 +16,7 @@ let EdwardReducer= (state = initialState, action) => {
           MessageText: action.EdwardnewMsgText,
         };
       case "EDWARD-SEND-MESSAGE-TEXT":
-        if (state.MessageText.trim() === "") {
+        if (state.MessageText.trim() === "") {в
           return state;
         }
         let newMymessageSend = { message: state.MessageText };
