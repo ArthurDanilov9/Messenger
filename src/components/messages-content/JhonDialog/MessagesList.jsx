@@ -11,7 +11,6 @@ const MessagesList = (props) => {
             </div>
             <div className="my-message-content">
                 {MessageElements}
-                hey
             </div>
         </div>
     )
